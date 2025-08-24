@@ -1,12 +1,32 @@
-# React + Vite
+📖 React Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern Blog Website built with React + Vite + Tailwind CSS + React Router DOM + Framer Motion + React Markdown.
+This project demonstrates routing, dynamic blog pages, Markdown rendering, syntax highlighting, and dark/light mode support.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🏠 Home Page → Simple hero section with animated text + image.
 
-## Expanding the ESLint configuration
+📚 Blog Page → Shows all blog posts fetched from .md files.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📝 Single Blog Page → Dynamic route with Markdown rendering + code highlighting.
+
+👤 About Page → Animated text-based about section.
+
+❌ 404 Page → Custom NotFound page with navigation back to Home.
+
+🌙 Dark & Light Mode → Seamless theme toggle support.
+
+⚡ Fast & Optimized → Powered by Vite + Tailwind CSS.
+
+🛠️ Tech Stack
+
+Frontend: React (Vite)
+
+Styling: Tailwind CSS + Framer Motion
+
+Routing: React Router DOM
+
+Markdown Support: React Markdown + Syntax Highlighter (Prism.js)
+
+Dark/Light Mode: Tailwind Dark Mode
